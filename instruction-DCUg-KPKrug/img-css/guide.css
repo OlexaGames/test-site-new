@@ -219,3 +219,17 @@ p, ol {
 	top: 9.6px;
     transform: translateX(29px);
 }
+
+@media (orientation: portrait) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (orientation: landscape) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
