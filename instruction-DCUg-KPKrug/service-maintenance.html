@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Сервисное обслуживание - список руководств</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="img-css/section-with-guide.css">
+	<link rel="stylesheet" type="text/css" href="../instruction-DCUg-KPKrug/media/media-main.css">
+	<script src="js-setting.js"></script>
+	<script src="img-css/menu-burger.js"></script>
+	<script src="header-component.js" defer></script>
+</head>
+<body style="overflow-y: scroll;"> <!-- по умолчанию просто "<body>" без стилей -->
+	<div class="service-maintenance-page">
+		<header>
+		    <nav class="menu" id="menu">
+		        <ul>
+		            <li><a href="../instruction-DCUg-KPKrug/service-maintenance.html" class="menu-element">Сервисное<br>обслуживание</a></li>
+		            <li><a href="../instruction-DCUg-KPKrug/replacing-configuring-modules.html" class="menu-element">Замена и настройка<br>модулей</a></li>
+		            <li><a href="../instruction-DCUg-KPKrug/possible-malfunctions.html" class="menu-element">Возможные<br>неисправности</a></li>
+		        </ul>
+		    </nav>
+		    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+		        <span class="burger-line"></span>
+		    </button>
+		    <a class="image-btn" href="main.html">
+		        <img src="img-css/logo-rezerv.png" class="logo-header">
+		    </a> 
+		</header>
+		<main>
+			<section class="list-section">
+				<h2 class="chapter-title title-section">Сервисное обслуживание</h2>
+				<hr class="line-1">
+				<div class="dropdown dropdown-alt-1">
+			  		<button onclick="myFunction('myDropdown1')" class="dropbtn">
+			  			<p class="titlebtn">Центральный пост</p>
+			  			<img src="img-css/arrow.png" class="arrow">
+			  		</button>
+			  		<div id="myDropdown1" class="dropdown-content">
+			  			<ul>
+			  				<li><a href="service-maintenance-guide-html/guide1-central.html">Анализ работы по записям в журнале</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide2-central.html">Внутренняя чистка системного блока, проверка вентилятора и фильтра</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide3-central.html">Проверка базовых настроек параметрова компьютера</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide4-central.html">Резервное копирование баз данных, архивов и протоколов событий АРМ</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide5-central.html">Проверка целостности баз данных АРМ</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide6-central.html">Антивирусная профилактика</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide7-central.html">Анализ целостности прикладного программного обеспечения АРМ</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide8-central.html">Сканирование поверхности жёстких дисков</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide9-central.html">Проверка работоспособности модемов, их настройка</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide10-central.html">Анализ работы компьютера по локальной сети</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide11-central.html">Установка программного обеспечения</a></li>
+			  			</ul>
+			  		</div>
+				</div>
+				<div class="dropdown dropdown-alt-2">
+			  		<button onclick="myFunction('myDropdown2')" class="dropbtn">
+			  			<p class="titlebtn">Линейный пункт</p>
+			  			<img src="img-css/arrow.png" class="arrow">
+			  		</button>
+			  		<div id="myDropdown2" class="dropdown-content">
+			  			<ul>
+			  				<li><a href="service-maintenance-guide-html/guide1-linear.html">Проверка работоспособности модемов и их настройка</a></li>
+			  				<li><a href="service-maintenance-guide-html/guide2-linear.html">Установка программного обеспечения</a></li>
+			  			</ul>
+			  		</div>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+</html>

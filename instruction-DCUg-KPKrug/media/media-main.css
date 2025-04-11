@@ -1,0 +1,161 @@
+@media (min-width: 1024px) and (max-width: 1355px) {
+
+}    /* Разрешение 1024 - 1355 */ 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	/* Подвал сайта */
+
+	.footer-content {
+		margin: 0em 6em 0em 6em;
+	}
+
+	.logo-footer {
+		width: 85%;
+	}
+
+	.copyright {
+		font-size: 14px;
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+		width: 85%;
+	}
+
+	.menu li, .menu .menu-element {
+		width: 144px;
+	}
+
+	.menu .menu-element {
+		font-size: 14px;
+	}
+
+	.image-btn {
+		margin-right: 0;
+	}
+
+	/* Главное меню */
+
+	.main-wrapper-title h1 {
+		font-size: 65px;
+	}
+
+	.main-wrapper-title .title-mini {
+		font-size: 19px;
+	}
+}    /* Разрешение 768 - 1023 */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	/* Подвал сайта */
+
+	.image-btn-2 {
+		text-align: center;
+		width: 55%;
+	}
+
+	.copyright {
+		margin-top: 0;
+		font-size: 13px;
+	}
+
+	footer {
+		height: 100%;
+	}
+
+	.footer-content {
+		margin: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+	    width: 95px; /* width: 200px; */
+	}
+
+	.image-btn {
+		margin-right: 0;
+	    text-align: right;
+	    padding-right: 20px;
+	}
+
+	/* Главное меню и секция с гайдами*/
+
+	.main-wrapper-title {
+		height: 100vh;
+	}
+
+/*	.main-wrapper-title h1 {
+		font-size: 32px;
+    	line-height: 35px;
+	}*/
+
+	.title-mini {
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	.title-section {
+		font-size: 26px;
+	}
+
+	.dropbtn {
+		font-size: 1.3em;
+	}
+
+	.dropdown-content ul, .dropdown-content ol {
+		font-size: 16px;
+	}
+}    /* Разрешение 320 - 768 */
+
+/* --- Прочие настройки --- */
+
+@media (min-width: 320px) and (max-width: 440px) { 
+	.main-wrapper-title h1 {
+        font-size: 32px;
+        line-height: 41px;
+    }
+} /* Шрифт заголовка для главного меню */
+
+@media (min-width: 441px) and (max-width: 559px) { /* Шрифт для главного меню */
+	.main-wrapper-title h1 {
+		font-size: 44px;
+        line-height: 50px;
+    }
+} /* Шрифт заголовка для главного меню */
+
+@media (min-width: 560px) and (max-width: 767px) { /* Шрифт для главного меню */
+	.main-wrapper-title h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+} /* Шрифт заголовка для главного меню и секции с гайдами*/
+
+@media (min-width: 320px) and (max-width: 1255px) {
+	.dropbtn {
+		width: 90%;
+	}
+
+	.dropdown-content {
+		width: 75%;
+	}
+
+	.line-1 {
+		background: linear-gradient(90deg, #ffffff00 0%, #114A82 50%, #ffffff00 100%);
+		width: 70%;
+	}
+
+	.title-section {
+		text-align: center;
+	}
+} /* Для всплывающегося меню и заголовка в секциях с гайдами */
+
+@media (min-width: 384px) and (max-width: 767px) {
+	.dropdown-content ul, .dropdown-content ol {
+		font-size: 18px;
+	}
+}

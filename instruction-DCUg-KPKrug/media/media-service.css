@@ -1,0 +1,274 @@
+@media (min-width: 1024px) and (max-width: 1250px) {
+	/* Секции гайда: Заголовок, содержание и содержимое */
+
+	.logo-guide-text {
+		font-size: 26px;
+	}
+
+	.section-contents-guide {
+		width: 70%;
+	}
+
+	.text-guide {
+		font-size: 16px;
+	}
+
+	/* Содержимое руководства */
+
+	.chapter-title {
+		font-size: 28px;
+	}
+
+	.text {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	table, th, td {
+	    width: 64%;
+	}
+}   /* Разрешение 1024 - 1250 */ 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	/* Подвал сайта */
+
+	.footer-content {
+		margin: 0em 6em 0em 6em;
+	}
+
+	.logo-footer {
+		width: 85%;
+	}
+
+	.copyright {
+		font-size: 14px;
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+		width: 85%;
+	}
+
+	.menu li, .menu .menu-element {
+		width: 144px;
+	}
+
+	.menu .menu-element {
+		font-size: 14px;
+	}
+
+	.image-btn {
+		margin-right: 0;
+	}
+
+	/* Содержимое сайта */
+
+	/* Секции гайда: Заголовок, содердание и содержимое */
+
+	body {
+		background-color: white;
+	}
+
+	.logo-guide-text {
+		font-size: 24px;
+	}
+
+	.section-contents-guide {
+		width: 80%;
+	}
+
+	.content-element {
+		font-size: 16px;
+	}
+
+	.explanations {
+		font-size: 22px;
+	}
+
+	.text {
+		padding: 10px 28px 20px; /* padding: 15px 28px 25px; */
+		background-color: transparent;
+		margin-top: 0;
+		box-shadow: none;
+	}
+
+	.text-guide {
+		font-size: 17px;
+	}
+
+	.chapter-title {
+		font-size: 26px;
+	}
+
+	table, th, td {
+		font-size: 13px;
+	    width: 70%;
+	}
+
+}    /* Разрешение 768 - 1023 */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	/* Подвал сайта */
+
+	.image-btn-2 {
+		text-align: center;
+		width: 55%;
+	}
+
+	.copyright {
+		margin-top: 0;
+		font-size: 13px;
+	}
+
+	footer {
+		height: 100%;
+	}
+
+	.footer-content {
+		margin: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* Голова сайта */
+
+	.logo-header {
+	    width: 95px; /* width: 200px; */
+	}
+
+	.image-btn {
+		margin-right: 0;
+	    text-align: right;
+	    padding-right: 20px;
+	}
+
+	/* Содержимое сайта */
+
+	body {
+		background-color: white;
+	}
+
+	.logo-guide-text {
+	    font-size: 21px;
+	    margin-top: 57px;
+	    padding: 0 10px 0 10px;
+	}
+
+	.section-contents-guide {
+		width: 80%;
+	}
+
+	.contents {
+        list-style-type: none;
+        padding-left: 20px;
+        padding-right: 20px;
+	}
+
+	.explanations {
+		font-size: 20px;
+	}
+
+	.content-element {
+		font-size: 15.5px;
+        font-weight: 500;
+	}
+
+	.contents li {
+		margin-bottom: 10px;
+	} 
+
+	.text {
+		padding: 10px 16px 20px; /* padding: 15px 28px 25px; */
+		background-color: transparent;
+		margin-top: 0;
+		box-shadow: none;
+	}
+
+	.chapter-title {
+		font-size: 21px;
+	}
+
+	p, ol {
+		line-height: 24px;
+	}
+
+	.text-guide, .small-text2 {
+		font-size: 14px;
+	}
+
+	table, th, td {
+		font-size: 12px;
+	}
+
+	.table {
+		overflow: scroll;
+	}
+
+}     /* Разрешение 320 - 767 */
+
+/* --- Прочие настройки ---  */
+
+@media (min-width: 320px) and (max-width: 1250px) {
+	.anim-image .image:not(.mobile), .poasnenia {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.annotation-mini {
+		display: none;
+	}
+
+	.line-1 {
+    	background: linear-gradient(90deg, #114A82 0, rgba(198, 224, 245, .529849) 80%, #ffffff00 100%);
+	}
+
+/*	.border-slovo {
+		display: block;
+	}*/
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+	.text-guide, .small-text2 {
+		font-size: 16px;
+	}
+
+	.chapter-title {
+		font-size: 23px;
+	}
+} /* Размер шрифта 375 - 425px */
+
+@media (min-width: 426px) and (max-width: 767px) {
+	.text-guide, .small-text2 {
+		font-size: 16px;
+	}
+
+	.chapter-title {
+		font-size: 24px;
+	}
+
+	table, th, td {
+		font-size: 13px;
+	}
+} /* Размер шрифта 426 - 767px */
+
+@media (min-width: 484px) and (max-width: 767px) {
+	.logo-guide-text {
+		font-size: 24px;
+	}
+
+	.autors {
+		margin: 0 35px 0 15px;
+	}
+} /* Размер шрифта 484 - 767px отступ для Авторов */
+
+@media (min-width: 320px) and (max-width: 483px) {
+	.autors {
+		margin: 0;
+	}
+} /* Отступ для Авторов */
