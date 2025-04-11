@@ -1,0 +1,46 @@
+header {
+	position: fixed;
+	top: 0;
+}
+
+.title-image {
+	max-width: 1250px;
+    width: 65%;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+.title-image, .text-guide {
+	background-color: white;
+    border-radius: 30px;
+    padding: 15px 35px 25px;
+    box-shadow: 7px 7px 10px #00000047;
+}
+
+.title-section {
+	margin-top: 7.2em;
+}
+
+.text-guide {
+	margin-top: 30px;
+    margin-bottom: 30px;
+    width: 55%;
+    font-weight: 400;
+}
+
+.module-photo {
+	display: block;
+	margin: 20px auto 10px;
+    background-color: #a9a9a975;
+    border-radius: 30px;
+    padding: 0 50px;
+}
+
+p {
+	text-indent: 3em;
+}
+
+ol {
+	margin-top: 0;
+	padding-left: 5em;
+}

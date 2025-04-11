@@ -1,0 +1,40 @@
+.section-head-guide {
+	background: url("../guide-img/guide8-service-central-ava.png");
+}
+
+/* ----Пояснения---- */
+
+.p1 {
+    top: 407px;
+    left: 303px;
+}
+
+.p2 {
+	top: 52px;
+	left: 681px;
+}
+
+.p3 {
+	top: 130px;
+    left: 746px;
+}
+
+.p4 {
+	top: 222px;
+	left: 746px;	
+}
+
+.p5 {
+	top: 180px;
+	left: 577px;
+}
+
+.p6 {
+    top: 271px;
+    left: 770px;	
+}
+
+.p7 {
+    top: 242px;
+    left: 899px;
+}

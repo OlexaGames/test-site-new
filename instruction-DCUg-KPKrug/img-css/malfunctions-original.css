@@ -1,0 +1,93 @@
+.preface {
+	padding: 15px 35px 25px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px #00000047;
+}
+
+.dropbtn {
+    cursor: pointer;
+    display: flex;
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    height: 70px;
+    background-color: #114a8224;
+    border: 3px ridge #114a8224;
+    border-radius: 20px;
+    color: #154977;
+    font-size: 1.35em; /* по умолчанию - 1.5em; */
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.titlebtn {
+    margin: 0px;
+    font-family: Segoe UI, sans-serif;
+    font-weight: 700;
+}
+
+.mal-1 {
+    margin: 30px 0 20px 0;
+}
+
+.mal-2 {
+    margin: 20px 0 50px 0;
+}
+
+.dropbtn, .dropdown-content {
+    position: relative;
+    margin: 0 auto;
+}
+
+.dropdown-content {
+    display: block;
+    overflow: hidden;
+    background-color: white;
+    border-left: 3px ridge #114a8259;
+    border-right: 3px ridge #114a8259;
+    border-bottom: 3px ridge #114a8259;     
+    border-radius: 0px 0px 20px 20px;
+    width: 1050px; /*по умолчанию 1100px*/
+    max-height: 0;
+    transition: max-height 400ms ease;
+}
+
+.show {
+    max-height: 1000px;
+    transition: max-height 600ms ease;
+}
+
+.dropdown-content .preface-decision {
+    padding: 0 35px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.dropdown-content p {
+    padding: 0px 35px 0px;
+    margin: 0;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #00a5a5;
+}
+
+.dropdown-content a::before {
+    content: url("../../instruction-DCUg-KPKrug/img-css/arrow-pointer.png");
+    vertical-align: middle;
+    margin: 0 14px 0;
+}
+
+.dropdown-content .decision {
+    padding-left: 35px;
+    margin-bottom: 19px;
+}
+
+

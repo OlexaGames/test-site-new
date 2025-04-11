@@ -1,0 +1,182 @@
+body {
+    overflow-y: scroll;
+}
+
+.text-guide {
+    margin: 0 auto 20px;
+}
+
+.preface, .preface-decision {
+    text-indent: 3em;
+}
+
+.image-guide {
+    /*max-width: 1250px;*/
+    margin: 0px auto 20px; /* 30px auto 20px - попробовать это */ 
+    width: 100%;
+    padding: 0px 35px 15px;
+    max-width: max-content;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px #00000047;
+}
+
+.preface, .issue-title, .group-decision-solving {
+    padding: 15px 35px 25px;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px #00000047;
+}
+
+.group-decision-solving {
+    width: 910px;
+    margin: 0;
+    margin-right: 2.6em;
+    padding: 0 15px 15px;
+}
+
+.dropbtn {
+    cursor: pointer;
+    display: flex;
+    padding: 0 20px 0 20px;
+    width: 1200px;
+    height: 70px;
+    background-color: #114a8214;
+    border: 3px ridge #114a8224;
+    border-radius: 20px;
+    color: #154977;
+    font-size: 1.35em; /* по умолчанию - 1.5em; */
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.down-arrow {
+    transform: rotateZ(270deg);
+    margin-left: 5em;
+}
+
+.titlebtn {
+    margin: 0px;
+    font-family: Segoe UI, sans-serif;
+    font-weight: 700;
+}
+
+.variation-malfunctions {
+    margin-top: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+.malfunction {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    /*margin-top: 20px;
+    margin-bottom: -38px;*/
+}
+
+.dropbtn, .dropdown-content {
+    position: relative;
+    margin: 0 auto;
+}
+
+.dropdown-content {
+    display: flex;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 400ms ease;
+    justify-content: flex-end;
+}
+
+.dropdown-content .group-decision-solving {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.show {
+    max-height: 1000px;
+    transition: max-height 600ms ease;
+}
+
+.decision {
+    cursor: pointer;
+    margin-right: 3.2em;
+    display: flex;
+    padding: 10px 20px; /*0 20px 0 20px;*/
+    /*margin-bottom: 19px;*/
+    max-width: 864px;
+    width: 100%;
+    /*max-width: 1010px;
+    min-width: 864px;
+    width: auto;*/   
+    min-height: 40px;
+    height: auto; /* Было 52px 40px*/
+    background-color: white;
+    border: 3px ridge #114a8242;
+    border-radius: 20px;
+    color: #154977;
+    font-size: 1.1em;
+    font-weight: 700;
+    align-items: center;
+    box-shadow: 0px 0px 10px #00000026;
+}
+
+.group-decision-solving .decision {
+    max-width: 864px;
+    min-height: 40px;
+    height: auto; /* Было 52px 40px*/
+    font-size: 1.1em;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.decision p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.change {
+    flex-grow: 1;
+    color: #45b5b4;
+}
+
+/*.change::before {
+    content: url(../../instruction-DCUg-KPKrug/img-css/arrow-pointer.svg);
+    vertical-align: -2px;
+    margin: 0 15px;
+}*/
+
+.pointer {
+    vertical-align: -2px;
+    margin: 0 15px;
+}
+
+.image-malfunction {
+    padding-top: 25px;
+    /*padding: 25px 35px 15px;
+    max-width: max-content;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px #00000047;*/
+}
+
+.image-malfunction .caption {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.image-malfunction, .image-malfunction img {
+    display: block;
+    margin: 0 auto;
+}
+

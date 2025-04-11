@@ -1,0 +1,305 @@
+/* ----Общие свойства---- */
+
+body {
+	margin: 0px;
+    font-family: Segoe UI, sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(17 74 130 / 10%); /* 10% по умолчанию, было 15%, 18% */
+}
+
+h1 {
+	margin: 0px;
+	color: white;
+	font-size: 75px;
+    line-height: 89px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, .title-mini {
+	font-family: Segoe UI, sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+.title-mini {
+    font-size: 24px;
+    color: white;
+    margin-top: 30px;
+    line-height: 37px;
+}
+
+/* ----Голова сайта---- */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	opacity: 0.9;
+	position: fixed;
+	width: 100vw;
+	max-height: 90px;
+/*	height: auto;*/
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.menu ul {
+	margin: 0;
+}
+
+.menu li {
+	text-align: center;
+	margin: 0 -2.2px 0 -2.2px;
+}
+
+.menu li, .menu .menu-element {
+	display: inline-block;
+	list-style-type: none;
+	width: 200px;
+}
+
+.menu .menu-element {
+	text-decoration: none;
+	border-bottom: 5px solid transparent;
+	padding: 23px 0 20px 0;
+	color: black;	
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.menu .menu-element:hover {
+	background-color: #8080804a;
+	border-bottom: 5px solid #114a82c7; /* #184673c7 #1d5d9bc7 #114a82c7 */
+}
+
+.logo-header {
+	max-width: 280px;
+	width: 100%;
+}
+
+.image-btn {
+	margin-right: 20px;
+    margin-top: 6px;
+}
+
+/* ----Основа Сайта---- */
+
+.main-wrapper-title {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: url("rzd.png") no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+
+.cheese-line {
+	padding: 0;
+	margin: 10px 0;
+	border: none;
+	background-color: white;
+	scroll-behavior: smooth;	
+}
+
+.main-list, .list-section {
+	max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.list-title {
+    font-size: 19px;
+    color: #114a82;
+    padding: 16px;
+}
+
+.test {
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.line-1 {
+	background: linear-gradient(90deg, #114A82 0, rgba(198, 224, 245, .529849) 50%, #ffffff00 100%);
+	height: 3px;
+	width: 100%;
+	border: none;
+}
+
+.line-2 {
+	width: 85%;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    border-color: white;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 0em 10em 0em 10em;
+}
+
+footer {
+    display: flex;
+    background-color: #114a82;
+    height: 80px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.logo-footer {
+	display: inline-block;
+	max-width: 250px;
+	width: 100%;
+    padding: 5px;
+}
+
+.copyright {
+	color: white;
+	display: inline-block;
+}
+
+.test {
+	max-width: 550px;
+	width: 35%;
+	text-align: center;
+}
+
+.title-guide {
+	font-size: 13px;
+	line-height: 24px;
+	padding: 0 15px 10px 15px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+/* ---- Бургер меню ---- */
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.burger {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 24px; /* width: 25px; */
+    height: 16px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 15px; /* margin-left: 20px; */
+    z-index: 10;
+}
+
+.burger-line {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+	background-color: #114a82;
+	transform: translateY(-50%);
+}
+
+.burger::before, .burger::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #114a82;
+}
+
+.burger::before {
+	top: 0;
+}
+
+.burger::after {
+	bottom: 0;
+}
+
+.burger::after, .burger::before {
+    transform: rotate(0deg) translate(0px, 0px);
+    transition: transform 400ms ease;
+}
+
+.burger-line {
+	opacity: 1;
+    transition: opacity 400ms ease;
+}
+
+@media (max-width: 767px) {
+    .burger {
+        display: flex;
+    }
+
+    .menu {
+    	display: flex;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: left 0.3s ease;
+        z-index: 5;
+        overflow-y: auto;
+    }
+
+    .menu ul {
+		display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+
+    .active .menu-element:hover {
+        background-color: transparent;
+        border-bottom: none;
+    }
+
+    .active .menu-element {
+        padding: 12px;
+        border-bottom: none;
+        color: #154977;
+        background-color: #114a8214;
+        border-radius: 20px;
+        border: 2px solid #114a8245;
+    }
+
+    header {
+        opacity: 0.97;
+    }
+
+    .menu li {
+    	width: max-content;
+        margin: 15px 0;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .active.burger::before {
+        transform: rotate(45deg) translate(5px, 5px); 
+    }
+
+    .active.burger::after {
+        transform: rotate(-45deg) translate(5px, -5px); 
+    }
+
+    .active .burger-line {
+        opacity: 0;
+    }
+}

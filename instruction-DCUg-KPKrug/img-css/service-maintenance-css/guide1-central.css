@@ -1,0 +1,68 @@
+.section-head-guide {
+	background: url("../guide-img/guide1-service-central-ava.png");
+}
+
+/* ----Псевдоэлементы---- */
+
+.pseudo-elements p {
+	padding: 15px;
+	margin: 10px 0;
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8  {
+	display: flex;
+	align-items: center;
+}
+
+
+/* ----Пояснения---- */
+
+.p1 {
+	top: 49px;
+    left: 222px;
+}
+
+.p2 {
+	top: 49px;
+    left: 703px;
+}
+
+.p3 {
+    top: 40px;
+    left: 355px;
+}
+
+.p4 {
+	top: 31px;
+    left: 549px;
+}
+
+.p5 {
+	top: 69px;
+    left: 749px;
+}
+
+.p6 {
+	top: 82px;
+    left: 617px;
+}
+
+.p7 {
+	top: 66px;
+    left: 152px;
+}
+
+.p8 {
+	top: 27px;
+    left: 339px;
+}
+
+.p9 {
+	top: 73px;
+	left: 297px;
+}
+
+.p10 {
+	top: 49px;
+    left: 592px;
+}
