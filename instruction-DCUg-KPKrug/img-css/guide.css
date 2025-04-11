@@ -220,7 +220,7 @@ p, ol {
     transform: translateX(29px);
 }
 
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
     img {
         max-width: 100%;
         height: auto;
@@ -233,3 +233,4 @@ p, ol {
         height: auto;
     }
 }
+ */
